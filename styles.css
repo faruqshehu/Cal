@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    background-color: hsl(222, 26%, 31%);
+    justify-content: center;
+    justify-items: center;
+}
+
+.calculator{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 750px;
+    max-height: 100vh;
+    margin-top: 5%;
+}
+
+.calc{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: white;
+}
+
+
+
+#user-input{
+    width: 420px;
+    height: 100px;
+    font-size: 2.5rem;
+    text-align: right;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.theme{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.select{
+    display: block;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.select input{
+    width: 50px;
+
+}
+
+button:active,
+button :focus{
+    filter: brightness(120%);
+
+}
+
+.buttons{
+    display: block;
+    justify-content: center;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.digits button{
+    font-size: 2rem;
+    width: 80px;
+    height: 50px;
+    margin: 10px 5px;
+    border-bottom-style: double;
+    border: 2px solid hsl(28, 16%, 65%);
+    border-radius: 10px;
+}
+
+#del{
+    background-color: hsl(224, 28%, 35%);
+    color: white;
+}
+
+
+.reset{
+    display: flex;
+    justify-content: space-between;
+
+}
+.reset button{
+    width: 170px;
+    height: 50px;
+    margin: 10px 5px;
+    border-bottom-style: double;
+    border: 2px hsl(28, 16%, 65%);
+    border-radius: 10px;
+}
+
+.reset button:nth-child(1){
+    background-color: hsl(224, 28%, 35%);
+
+}
+.reset button:nth-child(2){
+    background-color: hsl(25, 98%, 40%);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cal</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" />
+  </head>
+
+  <body>
+    <section class="calculator">
+      <div class="calc">
+        <h1>calc</h1>
+
+        <div class="theme">
+          <p>THEME</p>
+
+          <div class="select">
+            <div class="option" >
+              <p>1</p>
+              <p>2</p>
+              <p>3</p>
+            </div>
+            <input type="button" />
+          </div>
+        </div>
+      </div>
+
+      <div id="user-input">
+        <input name="user-input" id="user-input">0</input>
+      </div>
+
+      <section class="buttons">
+        <div class="digits">
+          <button type="button" class="key-numbers">7</button>
+          <button type="button" class="key-numbers">8</button>
+          <button type="button" class="key-numbers">9</button>
+          <button type="button" class="operation-del" id="del">DEL</button>
+        </div>
+        <div class="digits">
+          <button type="button" class="key-numbers">4</button>
+          <button type="button" class="key-numbers">5</button>
+          <button type="button" class="key-numbers">6</button>
+          <button type="button" class="key-add">+</button>
+        </div>
+        <div class="digits">
+          <button type="button" class="key-numbers">1</button>
+          <button type="button" class="key-numbers">2</button>
+          <button type="button" class="key-numbers">3</button>
+          <button type="button" class="key-sub">-</button>
+        </div>
+        <div class="digits">
+          <button type="button" class="key-dot">.</button>
+          <button type="button" class="key-numbers">0</button>
+          <button type="button" class="key-numbers">/</button>
+          <button type="button" class="key-multiply">*</button>
+        </div>
+
+        <div class="reset">
+          <button type="reset" class="key-reset">RESET</button>
+          <button type="button" class="key-equal">=</button>
+        </div>
+      </section>
+    </section>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
